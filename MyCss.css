@@ -1,0 +1,119 @@
+﻿    .container{
+        float:left;
+    }
+
+    .container > .header {
+        background-color: maroon;
+        height: 120px;
+        position: absolute;
+        top: 0px;
+        width:100%;
+       
+    }
+
+    .container > .main {
+        background-image: url("https://www.educationunlimited.com/blog/wp-content/uploads/2019/08/Webp.net-compress-image.jpg");
+        height: 900px;
+        color: white;
+        font-size: 50px;
+        width:143%;
+    }
+
+    .container .footer {
+        color: white;
+        background-color: maroon;
+        text-align: center;
+        width:143%;
+    }
+
+    a {
+        background-color: darkolivegreen;
+        border-width: 3px;
+        border-color: black;
+        border-style: solid;
+        color: white;
+        text-decoration: none;
+        font-family: Calibri;
+        font-size: 19px;
+    }
+
+
+    a:hover {
+        color: black;
+    }
+
+
+    li {
+        display: inline-block;
+        color: white;
+    }
+
+    table{
+        position:absolute;
+        top:200px;
+        font-size:16px;
+        background-color:darkolivegreen;
+        color:white;
+    }
+
+    thead{
+        background-color:maroon;
+    } 
+
+    th, td{
+        border-width:2px;
+        border-color:black;
+        border-style:solid;
+        text-align:center;
+    }
+
+    td > a{
+        background-color:maroon;
+        font-size:15px;
+    }
+
+
+    form{
+        font-size:17px;
+        position:absolute;
+        left:100px;
+        top:250px;
+        background-color:maroon;
+        width:250px;
+        text-align:center;
+    }
+
+    .main button{
+        font-size:23px;
+        position:absolute;
+        left:100px;
+        top:200px;
+        background-color:darkolivegreen;
+        color:white;
+
+    }
+
+    .main button:hover{
+        cursor:initial;
+    }
+
+    .container > .header > h2{
+        color:white;
+    }
+
+    .container > .header > h3 {
+        color: white;
+        text-align:center;
+    }
+
+    .container > .main > a{
+        position:absolute;
+        left:1100px;
+        top:700px;
+        background-color:maroon;
+        font-size:30px;
+    }
+
+    button {
+        width: 250px;
+    }

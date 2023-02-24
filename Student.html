@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="MyCss.css" rel="stylesheet" />
+    <style>
+
+
+
+        .container > .main {
+            background-image: url("https://media.tychr.com/wp-content/uploads/2022/03/best-online-IB-Psychology-HL-Tutors.jpg");
+        }
+
+        table{
+            left:400px;
+            width:600px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h3>Coding School Webpage</h3>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="Course.html">Courses</a></li>
+                <li><a href="Trainer.html">Trainers</a></li>
+                <li><a href="Student.html">Students</a></li>
+                <li><a href="Assignment.html">Assignments</a></li>
+                <li><a href="TrainerPerCourse.html">Trainers per Course</a></li>
+                <li><a href="StudentPerCourse.html">Students per Course</a></li>
+                <li><a href="AssignmentPerCourse.html">Assignments per Course</a></li>
+                <li><a href="AssignmentPerStudentPerCourse.html">Assignments per Student per Course</a></li>
+            </ul>
+            <h2>Students</h2>
+
+
+        </div>
+        
+        <div class="main">
+            <div class="form-text">
+                <br />
+                <br />
+                <button class="button1">Add a Student</button>
+
+                <form>
+                    <label for="firstName">Firstname:*</label><br />
+                    <input type="text" name="firstName" value="" pattern="[A-Za-z]{2,}" required /><br />
+                    <label for="lastName">Lastname:*</label><br />
+                    <input type="text" name="lastName" value="" pattern="[A-Za-z]{2,}" required /><br />
+                    <strong>Birthdate:*</strong><br />
+                    <input type="date" name="birthdate" value="" min="1943-01-01" required /><br />
+                    <label for="tuition">Tuition Fees(Euros):*</label><br />
+                    <input type="number" name="tuition" value="" min="0.00" max="10000.00" step="500" required />
+                    <br />
+                    <br />
+                    <input type="submit" value="Submit" />
+
+                </form>
+            </div>
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="font-size:30px; font-family:Consolas; border-right-color:maroon; ">Students</th>
+                            <th style="border-right-color:maroon;"></th>
+                            <th style="border-right-color:maroon;"></th>
+                            <th style="border-right-color:maroon;"></th>
+                            <th></th>
+
+                        </tr>
+                        <tr>
+                            <th>FIRSTNAME</th>
+                            <th>LASTNAME</th>
+                            <th>DATE OF BIRTH</th>
+                            <th>TUITION FEES</th>
+                            <th style="background-color:maroon;"></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Iosif</td>
+                            <td>Papadakis</td>
+                            <td>1985-2-23</td>
+                            <td>1500 Euros</td>
+                            <td>
+                                <a href="Student/Edit.html">Edit</a>
+                                /<a href="Student/Delete.html">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Anastasios</td>
+                            <td>Nikologiannis</td>
+                            <td>1990-2-30</td>
+                            <td>1500 Euros</td>
+                            <td>
+                                <a href="Student/Edit.html">Edit</a>
+                                /<a href="Student/Delete.html">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Dimitra</td>
+                            <td>Kontomina</td>
+                            <td>1991-4-20</td>
+                            <td>2000 Euros</td>
+                            <td>
+                                <a href="Student/Edit.html">Edit</a>
+                                /<a href="Student/Delete.html">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Gerasimos</td>
+                            <td>Niniadis</td>
+                            <td>1978-11-15</td>
+                            <td>2500 Euros</td>
+                            <td>
+                                <a href="Student/Edit.html">Edit</a>
+                                /<a href="Student/Delete.html">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Anna</td>
+                            <td>Mpakodimou</td>
+                            <td>1995-2-10</td>
+                            <td>1500 Euros</td>
+                            <td>
+                                <a href="Student/Edit.html">Edit</a>
+                                /<a href="Student/Delete.html">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Themistoklis</td>
+                            <td>Kalantzis</td>
+                            <td>1989-7-3</td>
+                            <td>2000 Euros</td>
+                            <td>
+                                <a href="Student/Edit.html">Edit</a>
+                                /<a href="Student/Delete.htm">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Eleni</td>
+                            <td>Karali</td>
+                            <td>1990-6-22</td>
+                            <td>1500 Euros</td>
+                            <td>
+                                <a href="Student/Edit.html">Edit</a>
+                                /<a href="Student/Delete.html">Delete</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <a href="Enter.html">Exit</a>
+        </div>
+        
+
+        
+        <div class="footer">
+            <span>@2023 Coding School</span>
+        </div>
+
+    </div>
+</body>
+</html>

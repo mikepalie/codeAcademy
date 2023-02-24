@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="MyCss.css" rel="stylesheet" />
+    <style>
+
+
+
+        .container > .main {
+            background-image: url("https://miro.medium.com/max/1400/0*OOVmXlDxoD0bizUw");
+        }
+
+        table{
+            left:400px;
+            width:600px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h3>Coding School Webpage</h3>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="Course.html">Courses</a></li>
+                <li><a href="Trainer.html">Trainers</a></li>
+                <li><a href="Student.html">Students</a></li>
+                <li><a href="Assignment.html">Assignments</a></li>
+                <li><a href="TrainerPerCourse.html">Trainers per Course</a></li>
+                <li><a href="StudentPerCourse.html">Students per Course</a></li>
+                <li><a href="AssignmentPerCourse.html">Assignments per Course</a></li>
+                <li><a href="AssignmentPerStudentPerCourse.html">Assignments per Student per Course</a></li>
+            </ul>
+            <h2>Trainers per Course</h2>
+
+
+        </div>
+
+        <div class="main">
+            <div class="form-text">
+                <br />
+                <br />
+                <button class="button1">Add Trainer per Course</button>
+                <br />
+                <br />
+                <form>
+                    <label for="course">Course:*</label><br />
+                    <select name="course" id="course" required>
+                        <option></option>
+                        <option value="csharp">C#</option>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                    </select><br />
+                    <label for="trainer">Trainer's Name:*</label><br />
+                    <input type="text" name="trainer" pattern="[a-zA-Z]{2,}" required /><br />
+
+                    <br />
+                    <br />
+                    <input type="submit" value="Submit" />
+
+                </form>
+            </div>
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2" style="font-size:30px; font-family:Consolas; border-right-color:maroon; ">Trainers Per Course</th>
+                            <th style="border-right-color:maroon;"></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th>COURSE:</th>
+                            <th>C#</th>
+                            <th>JAVA</th>
+                            <th>PYTHON</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td>
+                                Papadopoulos<br />
+                                <a href="TrainerPerCourse/Edit.html">Edit</a>
+                                /<a href="TrainerPerCourse/Delete.html">Delete</a>
+                            </td>
+                            <td>
+                                Ketsentzoglou<br />
+                                <a href="TrainerPerCourse/Edit.html">Edit</a>
+                                /<a href="TrainerPerCourse/Delete.html">Delete</a>
+                            </td>
+                            <td>
+                                Tziova<br />
+                                <a href="TrainerPerCourse/Edit.html">Edit</a>
+                                /<a href="TrainerPerCourse/Delete.html">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                Georgaki<br />
+                                <a href="TrainerPerCourse/Edit.html">Edit</a>
+                                /<a href="TrainerPerCourse/Delete.html">Delete</a>
+                            </td>
+                            <td>
+                                Dedes<br />
+                                <a href="TrainerPerCourse/Edit.html">Edit</a>
+                                /<a href="TrainerPerCourse/Delete.html">Delete</a>
+                            </td>
+                            <td>
+                                Giannopoulos<br />
+                                <a href="TrainerPerCourse/Edit.html">Edit</a>
+                                /<a href="TrainerPerCourse/Delete.html">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                Krokida<br />
+                                <a href="TrainerPerCourse/Edit.html">Edit</a>
+                                /<a href="TrainerPerCourse/Delete.html">Delete</a>
+                            </td>
+                            <td></td>
+                            <td></td>                                
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <a  href="Enter.html">Exit</a>
+        </div>
+
+        <div class="footer">
+            <span>@2023 Coding School</span>
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+

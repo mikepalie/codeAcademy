@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="../EditDeleteCss.css" rel="stylesheet" />
+
+    <style>
+        .main {
+            background-image: url("https://miro.medium.com/max/1400/1*UDltRnBCkYifKh4VuZ7lFw.jpeg");
+            height: 800px;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="form-text">
+            <br />
+            <br />
+            <button class="button1">Edit an Assignment</button>
+            <br />
+            <br />
+            <form >
+                <label for="title">Title:*</label><br />
+                <input type="text" name="title" value="Lotto" required /><br />
+                <label for="description">Description:*</label><br />
+                <textarea maxlength="80" cols="22" rows="6" required placeholder="*Give your description (80 characters)" name="description">A stimulation of the lucky game Lotto</textarea><br />
+                <label for="subDateTime">SubDateTime:*</label><br />
+                <input type="date" name="subDateTime" value="2023-12-02" required />
+                <input type="time" name="subDateTime" value="12:39" required /><br />
+                <label for="oralMark">Oral Mark:*</label><br />
+                <input type="number" name="oralMark" value="87" min="0" max="100" step="1" /><br />
+                <label for="totalMark">Total Mark:*</label><br />
+                <input type="number" name="totalMark" value="90" min="0" max="100" step="1" />
+                <br />
+                <br />
+            </form>
+            <a href="../Assignment.html">
+                <div class="button1">Save Changes</div>
+            </a>
+        </div>
+
+
+        <a href="../Assignment.html">Exit</a>
+    </div>
+</body>
+</html>
